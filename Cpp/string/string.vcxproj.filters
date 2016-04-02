@@ -15,8 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="对象切割问题.cpp">
+    <ClCompile Include="MyClass.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="highscores.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

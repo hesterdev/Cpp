@@ -19,7 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="对象切割问题.cpp" />
+    <ClCompile Include="cat.cpp" />
+    <ClCompile Include="MyClass.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="highscores.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{7C7ADBB6-CF0F-4C0E-B68C-421FFCD2410D}</ProjectGuid>
