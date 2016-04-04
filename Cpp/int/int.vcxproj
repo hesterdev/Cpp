@@ -18,15 +18,9 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="MyClass.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="highscores.txt" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{7C7ADBB6-CF0F-4C0E-B68C-421FFCD2410D}</ProjectGuid>
-    <RootNamespace>string</RootNamespace>
+    <ProjectGuid>{0D6160E8-9D4A-4AA2-80E3-AA0EB1EBBD15}</ProjectGuid>
+    <RootNamespace>int</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,6 +109,9 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
